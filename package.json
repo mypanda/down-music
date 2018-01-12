@@ -1,0 +1,19 @@
+{
+  "name": "downmusic",
+  "version": "1.0.0",
+  "description": "下载网易云音乐歌单 音乐",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/app.js && node ./src/down.js",
+    "step1": "node ./src/app.js",
+    "step2": "node ./src/down.js",
+    "clean": "rm -rf dist/*"
+  },
+  "keywords": [],
+  "author": "MYPANDA",
+  "license": "ISC",
+  "dependencies": {
+    "jsonp-client": "^1.1.1",
+    "shelljs": "^0.7.8"
+  }
+}
